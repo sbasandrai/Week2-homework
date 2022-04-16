@@ -1,0 +1,71 @@
+
+
+header a {
+  color: rgb(12, 72, 28);
+  background-color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
+  display: inline;
+}
+
+body {
+  background-color: darkgray;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  margin-top: 5%;
+}
+
+button {
+  width: 250px;
+  margin: 0 0.5%;
+  font-size: 40px;
+  color: #13293d;
+  background-color: rgb(71, 234, 182);
+  border: 3px solid #13293d;
+  display: inline;
+}
+
+button:hover {
+  background-color: #4072b4;
+  color: #fff;
+}
+
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+h1 {
+  color: rgb(82, 82, 82);
+}
+
+
+.mywork {
+  flex: 1 0 0;
+  padding: 10px;
+  border: rgb(105, 105, 207)
+  text-align: left;
+  border-width: 10px;
+  border-style: solid;
+  margin: 5px;
+  
+}
+
+.mywork header {
+  padding: 20px;
+  color: pink;
+  background: rgb(38, 211, 245);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.mywork img {
+  max-width: 50%;}
