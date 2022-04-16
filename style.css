@@ -1,12 +1,23 @@
 
-
-header a {
-  color: rgb(12, 72, 28);
-  background-color: aliceblue;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 80px;
-  display: inline;
+* {
+  box-sizing: border-box;
 }
+
+header {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 { 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  color: rgb(12, 72, 28);
+  margin-right: 600px;
+  margin-left: 10px;
+}
+
+#avatar { max-width: 90px;}
 
 body {
   background-color: darkgray;
@@ -18,20 +29,16 @@ section {
   margin-top: 2%;
 }
 
-nav {
-  display: flex;
-  justify-content: right;
-  margin-top: 5%;
-}
-
 button {
   width: 250px;
-  margin: 0 0.5%;
+  margin: 15px;
   font-size: 40px;
-  color: #13293d;
+  color: #2c7dca;
   background-color: rgb(71, 234, 182);
   border: 3px solid #13293d;
-  display: inline;
+  flex: 1 0 200px;
+  padding: 10px;
+  margin-top: 50px;
 }
 
 button:hover {
