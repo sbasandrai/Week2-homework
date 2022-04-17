@@ -1,6 +1,14 @@
-
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(100, 98, 98);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header {
@@ -9,24 +17,16 @@ header {
   flex-wrap: wrap;
 }
 
-h1 { 
+h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 50px;
   color: rgb(12, 72, 28);
-  margin-right: 600px;
+  margin-right: 230px;
   margin-left: 10px;
 }
 
-#avatar { max-width: 90px;}
-
-body {
-  background-color: darkgray;
-}
-
-section {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
+#avatar {
+  max-width: 90px;
 }
 
 button {
@@ -55,16 +55,106 @@ h1 {
   color: rgb(82, 82, 82);
 }
 
+#backgroundimage {
+  max-height: 300px;
+  width: 100%;
+}
 
-.mywork {
-  flex: 1 0 0;
+aside {
+  padding-bottom: 1450px;
+  margin: 15px;
+  float: left;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: darkgray;
+  display: block;
+}
+
+aside p {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 15px;
+  color: rgb(0, 100, 93);
+  padding: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  max-width: fit-content;
+}
+
+p { 
+  font-size: 30px;
+  color: white;
+}
+
+section{ 
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+section .firstapplication .mywork {
+  border-width: 5px;
+  border-color: rgb(71, 234, 182);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section header {
+  max-width: fit-content;
+  font-size: 30px;
+  position: relative;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.firstapplication {
   padding: 10px;
-  border: rgb(105, 105, 207)
-  text-align: left;
-  border-width: 10px;
+  border: rgb(71, 234, 182);
+  border-width: 5px;
   border-style: solid;
   margin: 5px;
-  
+  max-width: 100%;
+  float: right;
+}
+
+.mywork {
+  padding: 10px;
+  border: rgb(71, 234, 182);
+  border-width: 5px;
+  border-style: solid;
+  margin: 5px;
+  max-width: 80%;
+  float: right;
+}
+
+.firstapplication img {
+  width: 1000px;
+  max-width: 100%;
+}
+
+.mywork img {
+  width: 100%;
+}
+
+#contact{ 
+  color: white;
+  display: inline-block
+}
+
+/* section .mywork {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.mywork .firstapplication {
+  padding: 10px;
+  border: rgb(105, 105, 207);
+  border-width: 5px;
+  border-style: solid;
+  margin: 5px;
+  max-width: 80%;
+  float: right;
 }
 
 .mywork header {
@@ -72,7 +162,7 @@ h1 {
   color: pink;
   background: rgb(38, 211, 245);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  max-width: 70px;
 }
 
-.mywork img {
-  max-width: 50%;}
+
