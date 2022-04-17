@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+
+/* Background color of page */
+
 body {
   background-color: rgb(100, 98, 98);
 }
@@ -10,6 +13,9 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+/* Header properties */
 
 header {
   background-color: aliceblue;
@@ -20,7 +26,7 @@ header {
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 50px;
-  color: rgb(12, 72, 28);
+  color: rgb(90, 88, 88);
   margin-right: 230px;
   margin-left: 10px;
 }
@@ -29,21 +35,24 @@ h1 {
   max-width: 90px;
 }
 
+/* Properties of button tabs in navigation bar */
+
 button {
   text-decoration: none;
   width: 250px;
   margin: 15px;
   font-size: 40px;
-  color: #2c7dca;
+  color: #fff;
   background-color: rgb(71, 234, 182);
   border: 3px solid #13293d;
   padding: 10px;
   margin-top: 50px;
+  margin-left: 30px;
 }
 
 button:hover {
   text-decoration: none;
-  background-color: #4072b4;
+  background-color: orange;
   color: #fff;
 }
 
@@ -53,14 +62,12 @@ button:active {
   box-shadow: 0 0 10px #000 inset;
 }
 
-h1 {
-  color: rgb(82, 82, 82);
-}
-
 #backgroundimage {
   max-height: 300px;
   width: 100%;
 }
+
+/* Properties of side bar to left of page */
 
 aside {
   padding-bottom: 1550px;
@@ -103,6 +110,7 @@ p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Properties of each section on main page */
 section{ 
   padding-bottom: 50px;
   padding-top: 60px;
@@ -145,11 +153,45 @@ section header {
   width: 100%;
 }
 
+/* Spacing of contact information */
+
 #contact{ 
-  color: white;
   word-spacing: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  
+}
+
+/* Adjustments to view webpage in different viewports / screen sizes */
+
+@media screen and (max-width: 1370px) {
+  aside {
+    padding-bottom: 2200px;
+  }
+
+  #asidecontactme{
+    position: relative;
+    top: 2180px;
+    right: 15px;
+  }
+
+@media screen and (max-width: 992px) {
+  button {
+    display: block;
+    margin: 10px;
+  }
+
+  aside {
+    padding-bottom: 2000px;
+  }
+
+  #asidecontactme{
+    position: relative;
+    top: 2020px;
+    right: 25px;
+  }
+
+  #contact{ 
+    position: relative;
+    left: 30px;
+  bottom: -40px;}
 }
 
 @media screen and (max-width: 768px) {
@@ -188,30 +230,37 @@ section header {
     right: 15px;
   }
 
+  #contact{ 
+    position: relative;
+    left: 10px;
+  bottom: -100px;}
+
 }
 
-/* section .mywork {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
+@media screen and (max-width: 600px) {
+ 
+  #contact{ 
+    position: relative;
+    left: 150px;
+  bottom: 250px;}
+
+
+@media screen and (max-width: 576px) {
+  aside {
+    padding-bottom: 1700px;
+  }
+
+  aside p { 
+    padding: 20px;
+  }
+
+  #contact{ 
+    position: relative;
+    left: 130px;
+  bottom: 150px;}
+
+  #asidemywork{
+    padding-top: 420px;
+    right: 30px;
+  }
 }
-
-.mywork .firstapplication {
-  padding: 10px;
-  border: rgb(105, 105, 207);
-  border-width: 5px;
-  border-style: solid;
-  margin: 5px;
-  max-width: 80%;
-  float: right;
-}
-
-.mywork header {
-  padding: 20px;
-  color: pink;
-  background: rgb(38, 211, 245);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  max-width: 70px;
-}
-
-
