@@ -20,3 +20,5 @@ then you are presented with a responsive layout that adapts to your viewport
 ![Screenshot](./images/Screenshot%202022-04-17%20155246.jpg)
 
 ## Link to Deployed Application
+
+https://sbasandrai.github.io/Week2-homework/
