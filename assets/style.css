@@ -251,7 +251,8 @@ section header {
   }
 
   aside p { 
-    padding: 20px;
+    padding: 30px;
+    font-size: 20px;
   }
 
   #contact{ 
@@ -260,7 +261,7 @@ section header {
   bottom: 150px;}
 
   #asidemywork{
-    padding-top: 420px;
+    padding-top: 460px;
     right: 30px;
   }
 }
