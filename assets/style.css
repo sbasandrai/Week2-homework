@@ -169,7 +169,7 @@ section header {
   #asidecontactme{
     position: relative;
     top: 2180px;
-    right: 15px;
+    right: 15px;}
   }
 
 @media screen and (max-width: 992px) {
@@ -191,7 +191,7 @@ section header {
   #contact{ 
     position: relative;
     left: 30px;
-  bottom: -40px;}
+    bottom: -40px;}
 }
 
 @media screen and (max-width: 768px) {
@@ -233,7 +233,7 @@ section header {
   #contact{ 
     position: relative;
     left: 10px;
-  bottom: -100px;}
+    bottom: -100px;}
 
 }
 
@@ -242,13 +242,14 @@ section header {
   #contact{ 
     position: relative;
     left: 150px;
-  bottom: 250px;}
+    bottom: 250px;
+}
 
   aside p { 
     padding: 30px;
     font-size: 20px;
   }
-  
+
 @media screen and (max-width: 576px) {
   aside {
     padding-bottom: 1700px;
@@ -262,7 +263,7 @@ section header {
   #contact{ 
     position: relative;
     left: 130px;
-  bottom: 150px;}
+    bottom: 150px;}
 
   #asidemywork{
     padding-top: 460px;
