@@ -244,7 +244,11 @@ section header {
     left: 150px;
   bottom: 250px;}
 
-
+  aside p { 
+    padding: 30px;
+    font-size: 20px;
+  }
+  
 @media screen and (max-width: 576px) {
   aside {
     padding-bottom: 1700px;
