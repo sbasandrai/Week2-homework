@@ -15,6 +15,12 @@ main {
 }
 
 
+section div {
+  max-width: 100%;
+  position: relative;
+}
+
+
 /* Header properties */
 
 header {
@@ -122,6 +128,7 @@ section header {
   position: relative;
   font-style: italic;
   font-weight: bolder;
+  margin-bottom: 10px;
 }
 
 .firstapplication {
@@ -130,7 +137,7 @@ section header {
   border-width: 5px;
   border-style: solid;
   margin: 5px;
-  max-width: 100%;
+  max-width: 81%;
   float: right;
 }
 
@@ -140,13 +147,19 @@ section header {
   border-width: 5px;
   border-style: solid;
   margin: 5px;
-  max-width: 80%;
+  max-width: 40%;
   float: right;
 }
 
 .firstapplication img {
-  width: 1000px;
-  max-width: 100%;
+  width: 100%;
+}
+
+.applicationstitle {
+  color: #000;
+  background-color: aqua;
+  position:relative;
+  margin-left: 70%;
 }
 
 .mywork img {
