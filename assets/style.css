@@ -157,9 +157,10 @@ section header {
 
 .applicationstitle {
   color: #000;
-  background-color: aqua;
+  background-color: rgb(71, 234, 182);
   position:relative;
   margin-left: 70%;
+  text-align: center;
 }
 
 .mywork img {
