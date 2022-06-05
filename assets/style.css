@@ -76,7 +76,7 @@ button:active {
 /* Properties of side bar to left of page */
 
 aside {
-  padding-bottom: 1550px;
+  padding-bottom: 1660px;
   margin: 15px;
   float: left;
   width: 20%;
@@ -147,7 +147,7 @@ section header {
   border-width: 5px;
   border-style: solid;
   margin: 5px;
-  max-width: 40%;
+  /* max-width: 40%; */
   float: right;
 }
 
@@ -165,6 +165,7 @@ section header {
 
 .mywork img {
   width: 100%;
+  width: 600px;
 }
 
 /* Spacing of contact information */
@@ -173,11 +174,15 @@ section header {
   word-spacing: 30px;
 }
 
+footer {
+  background-color: white;
+}
+
 /* Adjustments to view webpage in different viewports / screen sizes */
 
 @media screen and (max-width: 1370px) {
   aside {
-    padding-bottom: 2200px;
+    padding-bottom: 1800px;
   }
 
   #asidecontactme{
@@ -193,7 +198,7 @@ section header {
   }
 
   aside {
-    padding-bottom: 2000px;
+    padding-bottom: 1000px;
   }
 
   #asidecontactme{
@@ -214,7 +219,11 @@ section header {
   }
 
   aside {
-    padding-bottom: 1800px;
+    padding-bottom: 1100px;
+  }
+
+  footer {
+    display: block;
   }
 
   button {
@@ -238,18 +247,13 @@ section header {
     right: 30px;
   }
   
-  #asidecontactme{
-    position: relative;
-    top: 1700px;
-    right: 15px;
-  }
-
-  #contact{ 
-    position: relative;
-    left: 10px;
-    bottom: -100px;}
-
+section header {
+ font-size: 20px;
 }
+
+section p {
+  font-size: 15px;
+ }
 
 @media screen and (max-width: 600px) {
  
@@ -266,7 +270,7 @@ section header {
 
 @media screen and (max-width: 576px) {
   aside {
-    padding-bottom: 1700px;
+    padding-bottom: 1000px;
   }
 
   aside p { 
